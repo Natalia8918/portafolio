@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portafolio Natalia González</title>
+
+    <!--CSS Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Lato:400,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome-->
+    <script src="https://kit.fontawesome.com/f5cdbd7084.js" crossorigin="anonymous"></script>
+
+    <!--Animate.css-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <!--Mi estilo CSS-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top m-auto">
+        <div class="container d-flex justify-content-end justify-md-content-center">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav font-weight-bold">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#startSection">Perfil<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#myExperience">Estudios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#myProjects">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link lastLink" href="#socialNetworks" tabindex="-1"
+                            aria-disabled="true">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+       <!--<Perfil>-->
+    <section id="aboutMe" class="section1 d-none d-md-block py-4 animated zoomIn delay-2s">
+        <div class="row container my-4 d-flex justify-content-center align-items-center flex-md-column flex-lg-row px-2">
+            <div class="col-md-6 col-lg-4 d-flex pl-lg-5">
+                <img class="rounded-circle img-fluid" src="assets/img/ImagenPerfil.jpg" alt="Imagen de perfil">
+            </div>
+
+            <div class="col-md-10 col-lg-8 mt-md-4 py-3 text-justify pl-5 align-self-center">
+                <p class="paragraph">
+                    Desarrolladora Front End con conocimientos UX/UI.
+Manejo en diseño de estructura de página web, soluciones creativas de comunicación visual y gestión de proyectos, facilitación de la navegación del usuario, flujo de trabajo con preprocesadores, técnicas de posicionamiento avanzado.
+                </p>
+            </div>
+        </div>
+    </section>         
+    </header>
+
+    
+
+    <!--Carousel-->
+    <section id="carouselSection" class="my-5 pt-5 d-none d-sm-block">
+        <div class="container">
+            <div id="gallery" class="carousel slide mb-5" data-ride="carousel">
+
+                <ol class="carousel-indicators">
+                    <li data-target="#gallery" data-slide-to="0 " class="active"></li>
+                    <li data-target="#gallery" data-slide-to="1 "></li>
+                </ol>
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active justify-content-center ">
+                        <div class="row ">
+                            <div class="col ">
+                                <img class="img-fluid carousel2 " src="assets/img/animalesEnInvestigacion.png" alt="Imagen 1 Carousel" />
+                            </div>
+                            <div class="col ">
+                                <img class="img-fluid carousel2" src="assets/img/morty.png" alt="Imagen 2 Carousel" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item justify-content-center ">
+                        <div class="row ">
+                            <div class="col ">
+                                <img class="img-fluid carousel2" src="assets/img/pokeguia.png" alt="Imagen 3 Carousel" />
+                            </div>
+                            <div class="col ">
+                                <img class="img-fluid carousel2" src="assets/img/veterinaria.png" alt="Imagen 4 Carousel" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item justify-content-center ">
+                        <div class="row ">
+                            <div class="col ">
+                                <img class="img-fluid carousel2" src="assets/img/ricomida.png" alt="Imagen 5 Carousel" />
+                            </div>
+                            <div class="col ">
+                                <img class="img-fluid carousel2" src="assets/img/Suricata.png" alt="Imagen 6 Carousel" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item justify-content-center ">
+                        <div class="row ">
+                            <div class="col ">
+                                <img class="img-fluid carousel2" src="assets/img/cuppon.png" alt="Imagen 7 Carousel" />
+                            </div>
+                            <div class="col ">
+                                <img class="img-fluid carousel2" src="assets/img/SuperHero.png" alt="Imagen 8 Carousel" />
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Estudios-->
+    <section id="myExperience" class="section2 p-5">
+        <div>
+            <div class="d-flex justify-content-center flex-column flex-wrap text-justify px-md-5">
+                <div class="pt-3 pb-4">
+                    <h3 class="text-center font-weight-bold pt-4 pb-3">MIS ESTUDIOS</h3>
+                </div>
+
+                <div class="pb-2">
+                    <p class="paragraph">Año 2021, Carrera Front End</p>
+                </div>
+
+                <div class="pb-2">
+                    <p class="paragraph">Año 2021, Certificado Programación JavaScript</p>
+                </div>
+
+                <div class="pb-2">
+                    <p class="paragraph">Año 2021, Certificado CSS avanzado</p>
+                </div>
+
+                <div class="pb-2">
+                    <p class="paragraph">Año 2021, Certificado Fundamentos Desarrollo Web</p>
+                </div>
+
+                <div class="pb-5">
+                    <p class="paragraph">Año 2010, Títulada en Diseño y Producción Editorial.</p>
+                </div>
+
+                <div class="d-flex justify-content-center py-3">
+                    <a class="btnSaberMas btn btn-outline-dark btn-block mb-5 font-weight-bold"
+                        href="assets/img/cv.png" target="_blank" role="button" data-toggle="tooltip"
+                        data-placement="top" title="Currículum Vitae">Currículum</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Portafolio-->
+    <section id="myProjects" class="section3 p-3 mb-5">
+        <h3 class="text-center font-weight-bold pt-4">Mis proyectos</h3>
+        <div class="section3_container container d-flex flex-wrap pb-4">
+            <div class="card scrollflow -pop -opacity">
+                <img src="assets/img/SuperHero.png" class="card-img-top" alt="Imagen SuperHero">
+                <div class="card-body">
+                    <h5 class="card-title">Super Hero</h5>
+                    <p class="card-text">Ingresa el número de tu super heroe y encuentra su ficha</p>
+                </div>
+                <div class="container_badges container text-center">
+                    <span class="badge badge-dark">Javascript</span>
+                    <span class="badge badge-dark">API Fetch</span>
+                    <span class="badge badge-dark">JQuery</span>
+                    <span class="badge badge-dark">CSS</span>
+                    <span class="badge badge-dark">Bootstrap</span>
+                    <span class="badge badge-dark">HTML</span>
+                </div>
+                <div class="card-body card-body_buttons">
+                    <a href="https://natalia8918.github.io/SuperHero/" target="_blank"
+                        class="btn btn-outline-dark card-body_btn">Ver
+                        página</a>
+                </div>
+            </div>
+
+            <div class="card scrollflow -pop -opacity">
+                <img src="assets/img/pokeguia.png" class="card-img-top" alt="Imagen Pokeguia">
+                <div class="card-body">
+                    <h5 class="card-title">Pokeguia</h5>
+                    <p class="card-text">Búsqueda de pokemones, aquí podras ver sus movimientos y ataques.</p>
+                </div>
+                <div class="container_badges container text-center">
+                        <span class="badge badge-dark">Javascript</span>
+                        <span class="badge badge-dark">API Fetch</span>
+                        <span class="badge badge-dark">JQuery</span>
+                        <span class="badge badge-dark">CSS</span>
+                        <span class="badge badge-dark">Bootstrap</span>
+                        <span class="badge badge-dark">HTML</span>
+                </div>
+                <div class="card-body card-body_buttons">
+                    <a href="" target="_blank"
+                        class="btn btn-outline-dark card-body_btn">Repositorio</a>
+                </div>
+            </div>
+
+
+            <div class="card scrollflow -pop -opacity">
+                <img src="assets/img/ricomida.png" class="card-img-top" alt="Imagen ricomida">
+                <div class="card-body">
+                    <h5 class="card-title">Ricomida</h5>
+                    <p class="card-text">Encuentra las mejores recetas para sorprender a tus invitados.</p>
+                </div>
+                <div class="container_badges container text-center">
+                        <span class="badge badge-dark">JQuery</span>
+                        <span class="badge badge-dark">Bootstrap</span>
+                        <span class="badge badge-dark">CSS</span>
+                        <span class="badge badge-dark">Html</span>
+                </div>
+                <div class="card-body card-body_buttons">
+                    <a href="https://github.com/Natalia8918/ricomida" target="_blank"
+                        class="btn btn-outline-dark card-body_btn">Repositorio</a>
+                </div>
+            </div>
+
+            <div class="card scrollflow -pop -opacity">
+                <img src="assets/img/barber.png" class="card-img-top" alt="Imagen barber">
+                <div class="card-body">
+                    <h5 class="card-title">Blog Barbershop</h5>
+                    <p class="card-text">Barberia para hombres.
+                    </p>
+                </div>
+                <div class="container_badges container text-center">
+                        <span class="badge badge-dark">JQuery</span>
+                        <span class="badge badge-dark">Sass</span>
+                        <span class="badge badge-dark">CSS</span>
+                        <span class="badge badge-dark">Html</span>
+                </div>
+                <div class="card-body card-body_buttons">
+                    <a href="" target="_blank"
+                        class="btn btn-outline-dark card-body_btn">Repositorio</a>
+                </div>
+            </div>
+
+            <div class="card scrollflow -pop -opacity">
+                <img src="assets/img/revistaOnline.png" class="card-img-top" alt="Imagen Revista Online">
+                <div class="card-body">
+                    <h5 class="card-title">Revista Online</h5>
+                    <p class="card-text">Revista online.</p>
+                </div>
+                <div class="container_badges container text-center">
+                        <span class="badge badge-dark">Sass</span>
+                        <span class="badge badge-dark">CSS grid</span>
+                        <span class="badge badge-dark">Html</span>
+                </div>
+                <div class="card-body card-body_buttons">
+                    <a href="https://github.com/Natalia8918/Revista-online" target="_blank"
+                        class="btn btn-outline-dark card-body_btn">Repositorio</a>
+                </div>
+            </div>
+
+            <div class="card scrollflow -pop -opacity">
+                <img src="assets/img/Gigeo.png" class="card-img-top" alt="Imagen Gigeo">
+                <div class="card-body">
+                    <h5 class="card-title">Gigeo</h5>
+                    <p class="card-text">Plataforma de video la cual promueve y difunde el cine arte.</p>
+                </div>
+                <div class="container_badges container text-center">
+                        <span class="badge badge-dark">Sass</span>
+                        <span class="badge badge-dark">Bootstrap </span>
+                        <span class="badge badge-dark">HTML</span>
+                        <span class="badge badge-dark">BEM</span>
+                        <span class="badge badge-dark">Flexbox</span>
+
+                </div>
+                <div class="card-body card-body_buttons">
+                    <a href="https://natalia8918.github.io/GIGEO/" target="_blank"
+                        class="btn btn-outline-dark card-body_btn">Ver página</a>
+                    <a href="https://github.com/Natalia8918/GIGEO" target="_blank"
+                        class="btn btn-outline-dark card-body_btn">Repositorio</a>
+                </div>
+            </div>
+
+            <div class="card scrollflow -pop -opacity">
+                <img src="assets/img/cuppon.png" class="card-img-top" alt="Imagen Cuppon">
+                <div class="card-body">
+                    <h5 class="card-title">Cuppon</h5>
+                    <p class="card-text">Página web de descuentos.</p>
+                </div>
+                <div class="container_badges container text-center">
+                        <span class="badge badge-dark">Bootstrap</span>
+                        <span class="badge badge-dark"> CSS3</span>
+                        <span class="badge badge-dark">Html</span>
+                </div>
+                <div class="card-body card-body_buttons">
+                    <a href="https://github.com/Natalia8918/cuppon" target="_blank"
+                        class="btn btn-outline-dark card-body_btn">Repositorio</a>
+                </div>
+            </div>
+
+            <div class="card scrollflow -pop -opacity">
+                <img src="assets/img/Suricata.png" class="card-img-top" alt="Imagen Suricata">
+                <div class="card-body">
+                    <h5 class="card-title">Suricata</h5>
+                    <p class="card-text">Sitio de comida estilo delivery.</p>
+                </div>
+                <div class="container_badges container text-center">
+                        <span class="badge badge-dark">Bootstrap</span>
+                        <span class="badge badge-dark">CSS</span>
+                        <span class="badge badge-dark">Html</span>
+                </div>
+                <div class="card-body card-body_buttons">
+                    <a href="https://natalia8918.github.io/suricata/" target="_blank"
+                        class="btn btn-outline-dark card-body_btn">Ver
+                        página</a>
+                    <a href="https://github.com/Natalia8918/suricata" target="_blank"
+                        class="btn btn-outline-dark card-body_btn">Repositorio</a>
+                </div>
+            </div>
+
+            <div class="card scrollflow -pop -opacity">
+                <img src="assets/img/meet&coffee.png" class="card-img-top" alt="Imagen Meet and Coffee">
+                <div class="card-body px-3">
+                    <h5 class="card-title text-center">Meet & Coffee</h5>
+                    <p class="card-text">Cafetería donde se organizan charlas sobre tecnología.</p>
+                </div>
+                <div class="container_badges container text-center">
+                        <span class="badge badge-dark">CSS3</span>
+                        <span class="badge badge-dark">Html5</span>
+                </div>
+                <div class="card-body card-body_buttons">
+                    <a href="https://github.com/Natalia8918/meet-coffee" target="_blank"
+                        class="btn btn-outline-dark card-body_btn">Repositorio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Íconos con redes sociales-->
+    <footer id="socialNetworks" class="align-middle text-center py-5">
+        <div class="container">
+            <a class="swirl-in-fwd" href="mailto:nataliagonzalez.1802@gmail.com"><i class="fas fa-envelope" data-toggle="tooltip" data-placement="top" title="nataliagonzalez.1802@gmail.com"></i></a>
+            <a href="https://www.linkedin.com/in/natalia-gonz%C3%A1lez-17431983/"
+                target="about_blank"><i class="fab fa-linkedin-in" data="target" about="_blank" data-toggle="tooltip" data-placement="top" title="LinkedIn"></i></a>
+            <a href="https://github.com/Natalia8918" target="about_blank" data-toggle="tooltip" data-placement="top" title="Github"><i class="fab fa-github"></i></a>
+
+            <p class="pt-2">© Natalia González Orellana | Front-End</p>
+        </div>
+    </footer>
+
+    <!-- JQuery sin slim, minificado -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous ">
+    </script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+
+    <!-- Particles -->
+    <script src="assets/js/particles.min.js"></script>
+    <script src="assets/js/particles.js"></script>
+
+    <!-- Scrollflow -->
+    <script src="assets/js/eskju.jquery.scrollflow.min.js"></script>
+
+    <!-- Mis scripts -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
