@@ -61,7 +61,8 @@ section {
     margin: auto;
     margin-bottom: 0em;
     margin-top: 8em;
-    color: white;
+    color: rgb(0, 0, 0);
+    background-color: rgb(168, 241, 238);
 }
 
 /*Estilo carousel*/
@@ -93,9 +94,6 @@ section {
     color: white;
 }
 
-.imgDesafio {
-    width: 5em;
-}
 
 /* Portafolio */
 
@@ -136,7 +134,7 @@ section {
 
 footer {
     background-color: rgb(0, 0, 0);
-    margin-top: 100px;
+    margin-top: 10px;
 }
 
 /* Íconos redes sociales */
