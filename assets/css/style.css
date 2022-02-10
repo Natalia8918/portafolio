@@ -7,7 +7,7 @@ html, body {
 
 body {
     font-family: 'Lato', sans-serif;
-    width: 100vw;
+    width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,7 +26,7 @@ nav {
 }
 
 .nav-link{
-    color: rgb(168, 241, 238)!important;
+    color: rgb(114, 207, 236)!important;
     text-decoration: none;
     padding: 0 20px!important;
 } 
@@ -34,7 +34,7 @@ nav {
 /*Ícono hamburguesa*/
 
 .fa-bars {
-    color:rgb(168, 241, 238)!important;
+    color:rgb(114, 207, 236)!important;
 }
 
 .row {
@@ -49,20 +49,19 @@ section {
     z-index: 99;
 }
 
-.btnSaberMas {
-    width: 65vw;
+.btnCV {
     border-radius: 45px;
 }
 
 /* Perfil */
 
 .section1 {
-    width: 80vw;
-    margin: auto;
+    width: 75%;
+    margin-left: 11em;
     margin-bottom: 0em;
     margin-top: 8em;
     color: rgb(0, 0, 0);
-    background-color: rgb(168, 241, 238);
+    background-color: rgb(114, 207, 236);
 }
 
 /*Estilo carousel*/
@@ -94,12 +93,20 @@ section {
     color: white;
 }
 
+.section2 {
+    color: rgb(114, 207, 236);
+}
+
 
 /* Portafolio */
 
 .section3 {
     background: rgba(0, 0, 0, 0.6)
 } 
+
+.Lportafolio {
+    color: rgb(114, 207, 236);
+}
 
 .card{
     margin: 40px auto;
@@ -141,11 +148,11 @@ footer {
 footer a {
     margin-left: 15px;
     font-size: 25px;
-    color: rgb(168, 241, 238);
+    color: rgb(114, 207, 236);
 }
 
 footer a:hover {
-    color: rgb(176, 243, 221);
+    color: rgb(114, 207, 236);
 }
 
 /*Media queries*/
@@ -174,8 +181,9 @@ footer a:hover {
         margin: auto;
     }  
 
-    .btnSaberMas {
-        width: 30vw;
+    .btnCV {
+        width: 10vw;
+        color: white;
     }
     
     .section3_container {
@@ -194,11 +202,11 @@ footer a:hover {
     footer a {
         margin-left: 25px;
         font-size: 40px;
-        color: rgb(168, 241, 238);
+        color: rgb(114, 207, 236);
     }
     
     .nav-link {
-        border-right: 1px solid rgb(168, 241, 238);
+        border-right: 1px solid rgb(114, 207, 236);
     }
 
     .lastLink{
