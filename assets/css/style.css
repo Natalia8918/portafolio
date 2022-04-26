@@ -73,8 +73,8 @@ section {
 
 .carousel-indicators li {
     top: 60px;
-    width: 10px;
-    height: 10px;
+    width: 5px;
+    height: 5px;
     border-radius: 50%;
     background-color: var(--light);
 }
